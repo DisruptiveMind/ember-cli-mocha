@@ -1,5 +1,10 @@
 /* jshint expr:true */
 import {
+  describe,
+  it
+} from 'ember-mocha';
+
+import {
   <%= camelizedModuleName %>
 } from '<%= dasherizedPackageName %>/helpers/<%= dasherizedModuleName %>';
 
